@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  pdf-parser:
+    build:
+      context: .
+    ports:
+      - "8000:8000"  # Map port 8000 of the container to port 8000 on your local machine
+    volumes:
+      - .:/app  # Mount your local project folder into the container
+    depends_on:
+      - db
+
+  db:
+    image: postgres
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: pdf_parser_db
