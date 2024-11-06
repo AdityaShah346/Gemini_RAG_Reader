@@ -1,4 +1,3 @@
-```markdown
 # RAG LLM PDF Parser Using Ollama Model
 
 ## Description
