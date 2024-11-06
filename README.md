@@ -1,5 +1,4 @@
----
-
+```markdown
 # RAG LLM PDF Parser Using Ollama Model
 
 ## Description
@@ -92,5 +91,4 @@ python test_script.py
 ## Additional Information
 
 This project is a standalone PDF parser using RAG and the Ollama model to streamline information retrieval from documents. It’s designed for ease of use and customization. Future improvements may include expanding supported document types or optimizing embedding functions for specific domains.
-
---- 
+```
